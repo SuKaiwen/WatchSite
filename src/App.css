@@ -39,7 +39,7 @@
 
 .parallax{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/home.jpg');
-    height: 100vh;
+    height: 170vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,23 +49,54 @@
 
 h1{
     font-size:70px;
+    font-weight: bold;
 }
 
 h4{
     font-size:30px;
 }
 
+h3{
+    font-weight: bold;
+}
+
 .center{
-   top:50%;
+   top:20%;
    left:0%;
    position: relative;
 }
 
+.bottom{
+    top:31%;
+    margin:auto;
+    position:relative;
+    text-align:left;
+    width:425px;
+}
+
 .triple{
-    top:50%;
+    top:30%;
+    width:100%;
     position:relative;
     display:flex;
     justify-content:center;
+    overflow-x: hidden;
+}
+
+.watchImage{
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 25px;
+    width:425px;
+    height:590px;
+}
+
+.flexBox{
+    width:100%;
+    margin: auto;
+    text-align: left;
+    height: 100vh;
+    padding:5%;
 }
 
 @media screen and (max-width: 800px) and (min-width: 0px){
@@ -75,5 +106,15 @@ h4{
 
     h4{
         font-size: 20px;
+    }
+
+    .watchImage{
+        border-radius:15px;
+        width:300px;
+        height:450px;
+    }
+
+    .bottom{
+        width:300px;
     }
 }
