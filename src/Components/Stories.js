@@ -7,7 +7,7 @@ import React from 'react';
 
 function Stories() {
   return (
-    <div className="flexBox" style={{fontFamily:"Urbanist"}}>
+    <div className="flexBox">
         <h1>LATEST STORIES</h1>
         <div class="row">
             <div class="col-sm">

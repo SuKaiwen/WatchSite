@@ -115,6 +115,14 @@ p{
     padding:5%;
 }
 
+.footer{
+    width:80%;
+    margin:auto;
+    color:black;
+    height:100vh;
+    text-align:left;
+}
+
 .imageStandard{
     width:100%;
 }
@@ -131,6 +139,10 @@ p{
 @media screen and (max-width:1200px) and (min-width:800px){
     .flexBox{
         width:75%;
+    }
+
+    .footer{
+        width:90%;
     }
 }
 
@@ -163,6 +175,10 @@ p{
 
     .flexBox{
         width:100%;
+    }
+
+    .footer{
+        width:90%;
     }
 }
 

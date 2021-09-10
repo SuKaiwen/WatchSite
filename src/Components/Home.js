@@ -5,7 +5,7 @@ import watch3 from '../images/watch3.jpg';
 
 function Home() {
   return (
-    <div className="parallax" style={{fontFamily:"Urbanist", margin:"auto", color:"white"}}>
+    <div className="parallax" style={{margin:"auto", color:"white"}}>
         <h1 className="center">UNLOCK TIME</h1>
         <h4 className="center">Watches crafted from exquisite elements of nature</h4>
         <div className="triple">

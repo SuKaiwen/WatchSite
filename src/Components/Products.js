@@ -7,7 +7,7 @@ import productHeader from '../images/productHeader.jpg';
 
 function Products() {
   return (
-    <div className="flexBox" style={{fontFamily:"Urbanist"}}>
+    <div className="flexBox">
         <h1>LATEST DESIGNS</h1>
         <img src={productHeader} className="imageStandard" alt="product" />
         <p style={{fontWeight:"bold"}}>SUBMARINER BLACK MASTER COLLECTION | MODEL NUMBER: 124901F</p>

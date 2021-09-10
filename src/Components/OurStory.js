@@ -4,7 +4,7 @@ import person1 from '../images/person1.jpg';
 
 function OurStory() {
   return (
-    <div className="flexBox" style={{fontFamily:"Urbanist"}}>
+    <div className="flexBox">
         <h1>OUR WATCHES ARE CRAFTED WITH PERFECTION</h1>
         <p>Explore our wide collection of prestigious,
             high-precision timepieces. At Regal we offer a wide

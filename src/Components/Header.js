@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark" style = {{fontFamily:"Urbanist"}}>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <a class="navbar-brand" href="#">Regal</a>
         <i class="fas fa-crown" style = {{color:"#FFD700"}}></i>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
