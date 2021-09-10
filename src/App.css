@@ -117,12 +117,15 @@ p{
 
 .imageStandard{
     width:100%;
-    max-height:50%;
 }
 
 .imageHalf{
-    width:48%;
-    height:310px;
+    width:175px;
+}
+
+.scrollRow{
+    display:flex;
+    overflow-x:scroll;
 }
 
 @media screen and (max-width:1200px) and (min-width:800px){
@@ -160,6 +163,25 @@ p{
 
     .flexBox{
         width:100%;
-        min-height:1000px;
     }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

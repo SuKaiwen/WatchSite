@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import OurStory from './Components/OurStory';
 import MiddleParallax from './Components/MiddleParallax';
 import Products from './Components/Products';
+import Stories from './Components/Stories';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <OurStory />
       <MiddleParallax />
       <Products />
+      <Stories />
     </div>
   );
 }
