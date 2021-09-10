@@ -3,6 +3,8 @@ import './App.css';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import OurStory from './Components/OurStory';
+import MiddleParallax from './Components/MiddleParallax';
+import Products from './Components/Products';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Home />
       <OurStory />
+      <MiddleParallax />
+      <Products />
     </div>
   );
 }

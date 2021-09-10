@@ -45,6 +45,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    min-height:1200px;
+}
+
+.parallax2{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/mountain.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    max-height:400px;
+    padding:20px;
 }
 
 h1{
@@ -58,6 +71,10 @@ h4{
 
 h3{
     font-weight: bold;
+}
+
+p{
+    font-size:20px;
 }
 
 .center{
@@ -92,11 +109,26 @@ h3{
 }
 
 .flexBox{
-    width:100%;
+    width:65%;
     margin: auto;
     text-align: left;
-    height: 100vh;
     padding:5%;
+}
+
+.imageStandard{
+    width:100%;
+    max-height:50%;
+}
+
+.imageHalf{
+    width:48%;
+    height:310px;
+}
+
+@media screen and (max-width:1200px) and (min-width:800px){
+    .flexBox{
+        width:75%;
+    }
 }
 
 @media screen and (max-width: 800px) and (min-width: 0px){
@@ -108,6 +140,10 @@ h3{
         font-size: 20px;
     }
 
+    p{
+        font-size:15px;
+    }
+
     .watchImage{
         border-radius:15px;
         width:300px;
@@ -116,5 +152,14 @@ h3{
 
     .bottom{
         width:300px;
+    }
+
+    .parallax{
+        height:140vh;
+    }
+
+    .flexBox{
+        width:100%;
+        min-height:1000px;
     }
 }
